@@ -1,0 +1,35 @@
+{
+  "name": "project-6",
+  "version": "1.0.0",
+  "description": "Udacity image converter",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "nodemon src/index.ts",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DickMarjanovic/udacity-project-6.git"
+  },
+  "keywords": [
+    "training"
+  ],
+  "author": "Dick Marjanovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DickMarjanovic/udacity-project-6/issues"
+  },
+  "homepage": "https://github.com/DickMarjanovic/udacity-project-6#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.5",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.6.2",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

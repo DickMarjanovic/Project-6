@@ -1,0 +1,24 @@
+# IntelliJ
+.idea
+coverage
+*.iml
+
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Groovy
+.groovy
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+build/
